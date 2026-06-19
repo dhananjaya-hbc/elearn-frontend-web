@@ -15,7 +15,7 @@ This is the web frontend of our application built with Next.js 14, TypeScript, T
 
 ## Project Setup
 
-### 1. Create Project
+### Create Project
 ```bash
 npx create-next-app@latest frontend-web
 ```
@@ -27,7 +27,7 @@ Select these options:
 - App Router: Yes
 - Import alias: Yes (@/*)
 
-### 2. Install shadcn/ui
+### Install shadcn/ui
 ```bash
 cd frontend-web
 npx shadcn@latest init
@@ -37,7 +37,7 @@ Select these options:
 - Base color: Slate
 - CSS variables: Yes
 
-### 3. Install Dependencies
+### Install Dependencies
 ```bash
 npm install axios zustand @tanstack/react-query
 npm install react-hook-form zod @hookform/resolvers
@@ -48,7 +48,7 @@ npm install --save-dev @types/node
 npm install @tanstack/react-query-devtools
 ```
 
-### 4. Install shadcn Components
+### Install shadcn Components
 ```bash
 npx shadcn@latest add button
 npx shadcn@latest add input
